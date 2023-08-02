@@ -92,6 +92,9 @@ Segment assigns a `version` to your consent object. The `version` describes the 
 
 A consent conflict flag and the categories consented to by a user are both pulled from the consent object and are visible as traits on a user's profile in Unify. --->
 
+> info "Protocols users who use Tracking Plans should update them to include the consent object"
+> Protocols users who have configured their Tracking Plans to block unplanned events should update their Tracking Plans to include the consent object. For more information about Tracking Plans, see the [Protocols docs](/docs/protocols/tracking-plan/create/).
+
 
 ## Reconcile consent conflicts
 
@@ -133,3 +136,6 @@ If there is a category configured in Segment (`functional`) that is not mapped i
 ### Delivery Overview
 out of current scope--->
 Events discarded due to consent preferences appear in [Delivery Overview](/docs/connections/delivery-overview/) at the "Filtered at destination" step with the discard reason __Filtered by end user consent__.
+
+> info "Protocols users who use Tracking Plans should update them to include the consent object"
+> Protocols users who have configured their Tracking Plans to block unplanned events should update their Tracking Plans to include the consent object. For more information about Tracking Plans, see the [Protocols docs](/docs/protocols/tracking-plan/create/).
